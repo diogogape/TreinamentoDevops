@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket               = "devops-treinamento-515338929527-sa-east-1-an"
-    key                  = "tf-state-setup"
+    key                  = "tf-state-deploy"
     workspace_key_prefix = "tf-state-deploy-env"
     region               = "sa-east-1"
     encrypt              = true
